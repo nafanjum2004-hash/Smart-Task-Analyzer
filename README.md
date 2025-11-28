@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: spec-scribe-showcase.vercel.app
+**URL**: https://spec-scribe-showcase.vercel.app/
 
 ## How can I edit this code?
 
