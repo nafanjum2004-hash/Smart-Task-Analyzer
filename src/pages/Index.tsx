@@ -148,10 +148,18 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-white/10 bg-slate-900/70 mt-16">
         <div className="container mx-auto px-4 py-6">
-          <p className="text-center text-sm text-slate-400">
-            Smart Task Analyzer © 2026 • Designed for productivity & intelligent
-            planning
-          </p>
+
+          <div className="text-center space-y-2">
+
+            <p className="text-sm text-muted-foreground">
+              Smart Task Analyzer - Simplifying productivity with smart automation
+            </p>
+
+            <p className="text-sm font-medium text-primary">
+              Advanced AI-powered task prioritization platform 🚀
+            </p>
+
+          </div>
         </div>
       </footer>
     </div>
