@@ -152,11 +152,11 @@ const Index = () => {
           <div className="text-center space-y-2">
 
             <p className="text-sm text-muted-foreground">
-              Smart Task Analyzer - Built with intelligent priority algorithms
+              Smart Task Analyzer - Simplifying productivity with smart automation
             </p>
 
             <p className="text-sm font-medium text-primary">
-              Empowering productivity through smart automation 🚀
+              Advanced AI-powered task prioritization platform 🚀
             </p>
 
           </div>
