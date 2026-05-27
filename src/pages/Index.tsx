@@ -78,8 +78,7 @@ const Index = () => {
                     Ready to Analyze
                   </h2>
                   <p className="text-muted-foreground">
-                    Add tasks using the form or import JSON data, then click
-                    "Analyze Tasks" to see intelligent prioritization in action.
+                    Create tasks or upload JSON files to get smart insights, priority rankings, and deadline analysis instantly.
                   </p>
                 </div>
               </div>
