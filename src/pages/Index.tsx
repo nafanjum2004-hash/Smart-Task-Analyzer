@@ -6,6 +6,7 @@ import { StrategySelector } from "@/components/StrategySelector";
 import { TaskResults } from "@/components/TaskResults";
 import { Brain, Sparkles } from "lucide-react";
 import { toast } from "sonner";
+import BurnoutAnalyzer from "@/components/BurnoutAnalyzer/BurnoutAnalyzer";
 
 const Index = () => {
   const [analyzedTasks, setAnalyzedTasks] = useState<AnalyzedTask[]>([]);
@@ -123,6 +124,7 @@ const Index = () => {
 
                 <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md p-4">
                   <TaskResults tasks={analyzedTasks} strategy={strategy} />
+                  <BurnoutAnalyzer tasks={analyzedTasks} />
                 </div>
               </>
             )}
