@@ -80,6 +80,7 @@ const Index = () => {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Column */}
           <div className="lg:col-span-1">
@@ -90,6 +91,7 @@ const Index = () => {
 
           {/* Right Column */}
           <div className="lg:col-span-2 space-y-6">
+
             {analyzedTasks.length === 0 ? (
               <div className="flex items-center justify-center min-h-[400px] rounded-3xl border border-dashed border-white/10 bg-white/5 backdrop-blur-md">
                 <div className="text-center max-w-md px-6">
@@ -105,9 +107,12 @@ const Index = () => {
                     Add your tasks and let the system intelligently prioritize
                     them based on urgency, impact, and workload balance.
                   </p>
+
                 </div>
               </div>
+
             ) : (
+
               <>
                 <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md p-4">
                   <StrategySelector
@@ -124,6 +129,19 @@ const Index = () => {
           </div>
         </div>
       </main>
+
+      {/* Contributor Section */}
+      <section className="container mx-auto px-4 pb-8">
+        <div className="rounded-xl border border-border bg-card p-5 shadow-soft text-center">
+          <h3 className="text-lg font-semibold text-primary mb-2">
+            Project Contribution
+          </h3>
+
+          <p className="text-muted-foreground">
+            Enhanced and contributed by Vaishnavi Jagtap 💡
+          </p>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-white/10 bg-slate-900/70 mt-16">
