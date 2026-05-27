@@ -24,7 +24,11 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'sudo cp -r * /var/www/html/'
+                 sh '''
+                 sudo rm -rf /var/www/html/*
+                 sudo cp -r dist/* /var/www/html/
+                 sudo systemctl restart apache2
+                '''
             }
         }
     }
